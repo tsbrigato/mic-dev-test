@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/articles-tableview.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700,900' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <div class="container">
+      <table id="sortable" border="0" cellpadding="0" cellspacing="0">
+        <thead>
+          <tr>
+            <th class="articles-header">Unpublished Articles <span id="article-count"></span></th>
+            <th class="author-header">Author</th>
+            <th class="words-header"><a href="javascript:SortTable(2,'N');">Words</a></th>
+            <th class="submitted-header"><a href="javascript:SortTable(3,'D','mdy');">Submitted</a></th>
+          </tr>
+        </thead>
+        <tbody id="articles">
+        </tbody>
+      </table>
+      <div class="row">
+        <button class="btn" id="load-more">Load More Articles</button>
+      </div>
+    </div>
+    <script type="text/javascript" src="js/articles-tableview.js"></script>
+    <script type="text/javascript" src="js/sortTable.js"></script>
+
+  </body>
+</html>
