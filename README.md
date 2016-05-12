@@ -2,6 +2,7 @@
 
 ## The Task:
 Implementation Details
+
 1. The implementation should look visually identical if not better than the screenshot below.
 2. Populate the page with data from `articles.json`.  Initially show 10 of the 30 articles that are populated.
 3. At the bottom of the table should be a Load More button (not shown below) that will show 10 more rows.  If there are no more articles to show from the bootstrapped data, then make an xhr request to `more-articles.json` and dynamically add them to the table, 10 at a time.
