@@ -1,6 +1,5 @@
 # Mic Frontend Development Test
-Tina Sbrigato
-tsbrigato@verizon.net
+Tina Sbrigato (tsbrigato@verizon.net)
 
 ## The Task:
 Implementation Details
