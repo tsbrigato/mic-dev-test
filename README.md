@@ -12,17 +12,27 @@ Implementation Details
 [![End Product](https://bitbucket.org/policymic/dev-test/raw/master/screenshot.png)](https://bitbucket.org/policymic/dev-test/raw/master/screenshot.png)
 
 
-## Submission:
-1. The example should be able to be viewed locally. Two examples have been included. Please start with index.html
+## Submission #1:
+1. The example can be viewed locally, and only contains html, css and js files. No jquery has been used in these examples :(
+2. Two examples have been included. Please start with index.html
 
 ## Notes on the Process:
 1. Created index.html for basic layout, article.css for basic styling, article.js
 2. Created GitHub repository, uploaded 'data' directory containing json files
-3. Created xhr request to retrieve the first json document, 'articles.json', populated index.html with data in articles.js as list
+3. Created xhr request to retrieve the first json document, 'articles.json' from the raw GitHub file, populated index.html with data in articles.js as list
 4. Did some basic styling so html looks like mockup
 5. Got the article count for header, "Unpublished Articles"
 6. Converted published dates to calculate difference between today's date and published date. This varies from the mockup due to the nature of the dates, which were from 2013. Displaying difference in minutes or hours returns very long times, so the difference is displayed in days*
-7. Created loadMore() function, which adds a visually hidden class to all the list items over the first 10, which removes the hidden class for the next 10 on click
-8. 
+7. Created loadMore() function, which adds a visually hidden class to all the list items over the first 10, which removes the hidden class for the next 10 on click. It seems to make the most sense to fetch all the feeds at once to avoid multiple calls and display the first 10 and then hide the rest. Got stuck a little bit here but got it to work. Once the all the data is returned to the page, the Load More button id is changed to a different id in order to call the 'more-articles.json'
+8. Got stuck trying to get the new json document to load while retaining initial document. Moved to the next task - will come back.
+9. This example ends here, couldn't get the sorting to work on the list, or the more-articles.json call. In order to complete the sorting, created tableview.html and converted the feed display to tables for easier sorting.
+
+## Submission #2:
+1. The example can viewed locally, and only contains html, css and js files. 
+2. Please open the tableview.html
+
+This example is using the same techniques to fetch the json data and etc. as the last, with the addition of sorting on the 'words' and 'submitted' columns and written as an html table for easier sorting of rows.
+
+
 
 
