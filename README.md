@@ -1,4 +1,6 @@
 # Mic Frontend Development Test
+Tina Sbrigato
+tsbrigato@verizon.net
 
 ## The Task:
 Implementation Details
@@ -35,10 +37,14 @@ This example is using the same techniques to fetch the json data and etc. as the
 
 The Words column seems to be doing the sort toggle nicely, however, not sure about the Submitted column. It's sorting but it doesn't seem to be correct. This may be because of the date calculation.
 
-*More on the date calculation: For best UI/UX practice, it is probably preferable to display the actual date after 365 days.
+*More on the date calculation: For best UI/UX practice, it is probably preferable to display the actual date after 365 days. Perhaps I could have cheated a little and changed the published by dates to make them work with the mockup, but in reality the published dates do not change and it needs to be dynamic.
 
 
 ## Conclusion:
+The sorting requires some more work to make the date sorting work and I ran out of time to complete the #5 item of the task. Both examples have been optimized for mobile (the tableview version less as this version approached deadline).
+
+Thank you for this opportunity and the generous timeline, it was a great challenge for me and my skills. I enjoying creating this for you and especially the content!
+
 
 
 
