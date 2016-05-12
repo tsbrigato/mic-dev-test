@@ -33,6 +33,13 @@ Implementation Details
 
 This example is using the same techniques to fetch the json data and etc. as the last, with the addition of sorting on the 'words' and 'submitted' columns and written as an html table for easier sorting of rows.
 
+The Words column seems to be doing the sort toggle nicely, however, not sure about the Submitted column. It's sorting but it doesn't seem to be correct. This may be because of the date calculation.
+
+*More on the date calculation: For best UI/UX practice, it is probably preferable to display the actual date after 365 days.
+
+
+## Conclusion:
+
 
 
 
